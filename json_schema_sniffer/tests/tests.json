@@ -1,0 +1,33 @@
+{
+    "attributes": {
+      "appName": "yuibinlmk",
+      "eventType": "testYZ",
+      "subEventType": "ibjbuivuyv",
+      "sensitive": false
+    },
+    "message": {
+      "user": {
+        "id": "tcytghjvh kj",
+        "nickname": "ABCD",
+        "title": "sampleBC",
+        "accountType": "test",
+        "countryCode": "test",
+        "orientation": "ipsomRSTU"
+      },
+      "time": 890,
+      "acl": [],
+      "publicFeed": false,
+      "internationalCountries": [
+        "sample",
+        "ipsom",
+        "lorem",
+        "testY",
+        "ABCDEFGHIJK",
+        "testYZ",
+        "ipsomR",
+        "ABCDEFG",
+        "ABCDEFGHIJKLM"
+      ],
+      "topTraderFeed": true
+    }
+  }
