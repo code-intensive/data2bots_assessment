@@ -1,0 +1,68 @@
+#tests.yml
+#This workflow will install Python dependencies, lint using Black, run tests using Pytest
+
+name: test_json_sniffer
+
+on:
+  push:
+
+  pull_request:
+    branches:
+      - main
+
+#A workflow job running sequentially
+jobs:
+  black:
+    runs-on: ubuntu-latest
+    steps:
+      - name: check out repository
+        uses: actions/checkout@v2
+      - name: set up python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.10"
+      - name: set up poetry
+        uses: Gr1N/setup-poetry@v7
+        with:
+          poetry-version: "1.2.2"
+      - name: install dependencies
+        run: poetry install --no-root
+      - name: Run black checks and format
+        run: "poetry run black . --check"
+
+  mypy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: check out repository
+        uses: actions/checkout@v2
+      - name: set up python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.10"
+      - name: set up poetry
+        uses: Gr1N/setup-poetry@v7
+        with:
+          poetry-version: "1.2.2"
+      - name: install dependencies
+        run: poetry install --no-root
+      - name: perform static type checks with mypy
+        run: "poetry run mypy ."
+
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: check out repository
+        uses: actions/checkout@v2
+      - name: set up python
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.10"
+      - name: set up poetry
+        uses: Gr1N/setup-poetry@v7
+        with:
+          poetry-version: "1.2.2"
+      - name: install dependencies
+        run: poetry install --no-root
+      - name: run all tests cases using pytest
+        run: "poetry run pytest"
+

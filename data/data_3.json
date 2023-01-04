@@ -1,0 +1,135 @@
+[
+  {
+    "attributes": {
+      "appName": "ABCDEFGHIJKLMNOPQRSTUVW",
+      "eventType": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "subEventType": "ABCDEFGHIJKLMNO",
+      "sensitive": false
+    },
+    "message": {
+      "user": {
+        "id": "ABCDEFGHIJKLMNOP",
+        "nickname": "ABCD",
+        "title": "ABCDEFGHIJKLMNOPQRSTUVWXYZABC",
+        "accountType": "ABCDEFGHIJKLMNOPQRSTUVWX",
+        "countryCode": "ABCDEFGHIJKLMNOPQRSTUVWX",
+        "orientation": "ABCDEFGHIJKLMNOPQRSTU"
+      },
+      "time": 890,
+      "acl": [],
+      "publicFeed": false,
+      "internationalCountries": [
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZA",
+        "ABCDEFGHIJKLMNOPQ",
+        "ABCDEFGHIJKLMNOPQRSTUVW",
+        "ABCDEFGHIJKLMNOPQRSTUVWXY",
+        "ABCDEFGHIJK",
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "ABCDEFGHIJKLMNOPQR",
+        "ABCDEFG",
+        "ABCDEFGHIJKLM"
+      ],
+      "topTraderFeed": true
+    }
+  },
+  {
+    "attributes": {
+      "appName": "ABCDEFGHIJKLMNOPQRSTUVW",
+      "eventType": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+      "subEventType": "ABCDEFGHIJKLMNO",
+      "sensitive": false
+    },
+    "message": {
+      "user": {
+        "id": "ABCDEFGHIJKLMNOP",
+        "nickname": "ABCD",
+        "title": "ABCDEFGHIJKLMNOPQRSTUVWXYZABC",
+        "accountType": "ABCDEFGHIJKLMNOPQRSTUVWX",
+        "countryCode": "ABCDEFGHIJKLMNOPQRSTUVWX",
+        "orientation": "ABCDEFGHIJKLMNOPQRSTU"
+      },
+      "time": 890,
+      "acl": [],
+      "publicFeed": false,
+      "internationalCountries": [
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZA",
+        "ABCDEFGHIJKLMNOPQ",
+        "ABCDEFGHIJKLMNOPQRSTUVW",
+        "ABCDEFGHIJKLMNOPQRSTUVWXY",
+        "ABCDEFGHIJK",
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "ABCDEFGHIJKLMNOPQR",
+        "ABCDEFG",
+        "ABCDEFGHIJKLM"
+      ],
+      "topTraderFeed": true
+    }
+  },
+  {
+    "attributes": {
+      "appName": "ABCDEFG",
+      "eventType": "ABCDEFGHIJ",
+      "subEventType": "ABCDEFGHIJKLMNOPQRSTU",
+      "sensitive": true
+    },
+    "message": {
+      "battle": {
+        "id": "ABCDEFGHIJKLMNOPQR",
+        "name": "ABCDEFGHIJKLMNOPQRSTUVWX",
+        "orientation": "ABCDEFGHIJKLMNO",
+        "settings": {
+          "minParticipants": 942,
+          "maxParticipants": 641,
+          "battleType": "ABCDEFGHIJKLMN",
+          "wagerType": "ABCDEFGHIJKLMNOPQRSTUVW",
+          "countdown": 69,
+          "duration": 200,
+          "archetype": {
+            "name": "ABCDEFGHIJKLMNOPQRS",
+            "iconId": "ABCDEFGHIJKLMNOPQRST"
+          }
+        },
+        "status": "ABCDEFGHIJKL",
+        "creationTime": 240,
+        "startTime": 626,
+        "endTime": 353,
+        "creator": {
+          "id": "ABCDEFGHIJKLMNOPQRSTUVWXYZA",
+          "nickname": "ABCDEFGHIJKLMNOPQ",
+          "title": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+          "accountType": "ABCDE",
+          "countryCode": "ABCD",
+          "orientation": "ABCDEFGHIJKLMNO"
+        },
+        "participants": [
+          {
+            "user": {
+              "id": "ABCDEFGHIJKLMN",
+              "nickname": "ABCDEFGHIJKLMN",
+              "title": "ABCDEFGHIJK",
+              "accountType": "ABCDEFGHIJKLMNOPQRSTUVWX",
+              "countryCode": "ABCDEFGH",
+              "orientation": "ABCDEFGHIJKLMNOPQRSTUVWXY"
+            },
+            "creator": false,
+            "ranking": 498,
+            "numberOfTrades": 862,
+            "performance": "ABCDEFGHIJKLMNOPQRSTUVW"
+          }
+        ]
+      },
+      "joiner": {
+        "id": "ABCDEFGHIJKLMNOPQRSTUVWXYZAB",
+        "nickname": "ABCDEFGHIJKLMNO",
+        "title": "ABCDEFGHIJKLMNOPQRSTUVWXYZABC",
+        "accountType": "ABCDEFGHIJKLMNOPQRS",
+        "countryCode": "ABCDEFGHIJKLMNOPQR",
+        "orientation": "ABCDEFGHIJKLMNOPQR"
+      },
+      "participantIds": [
+        "ABCDEFGHIJKLMNOPQRST",
+        "ABCDEFGHIJKLMNOPQRSTUVWXY"
+      ]
+    }
+  }
+]
