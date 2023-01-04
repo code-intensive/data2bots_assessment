@@ -1,5 +1,5 @@
 from pathlib import Path
-from typing import Protocol, Any, Iterable, Union, Dict
+from typing import Any, Dict, Iterable, Protocol, Union
 
 
 class IJsonValidator(Protocol):

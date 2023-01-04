@@ -1,7 +1,8 @@
 import json
-from pprint import pprint
-from typing import Any, Iterable, Dict, List, Collection, Union
 from pathlib import Path
+from pprint import pprint
+from typing import Any, Collection, Dict, Iterable, List, Union
+
 from protocols import IJsonValidator, ISchemaStorage
 
 
@@ -44,8 +45,12 @@ class SchemaSniffer:
     def sniff_schema(self) -> None:
         self.__sniff_schema__()
 
-    def save(self, file_name: str, *args: Iterable[Any], **kwargs: Dict[str, Any]) -> Any:
-        return self.storage.save(file_name, self._sniffed_schema, *args, **kwargs) # type:ignore
+    def save(
+        self, file_name: str, *args: Iterable[Any], **kwargs: Dict[str, Any]
+    ) -> Any:
+        return self.storage.save(
+            file_name, self._sniffed_schema, *args, **kwargs
+        )  # type:ignore
 
     def _get_type(self, key: Any) -> str:
         if isinstance(key, str):
@@ -66,7 +71,7 @@ class SchemaSniffer:
         return self._get_messages_from_list()
 
     def _get_messages_from_dict(self) -> List[Dict[Any, Any]]:
-        return [self._data.get("message")] # type:ignore
+        return [self._data.get("message")]  # type:ignore
 
     def _get_messages_from_list(self) -> List[Dict[Any, Any]]:
         messages = []
@@ -81,7 +86,7 @@ class SchemaSniffer:
         messages = self._get_messages()
         if not messages:
             return
-        sniffed_schemas = [] # type:ignore
+        sniffed_schemas = []  # type:ignore
         for message in messages:
             sniffed_schema = {}
             for key, value in message.items():
