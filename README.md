@@ -2,7 +2,7 @@
 
 ## HOW TO:
 ### Installing requirements:
-##### Using pip: 
+##### Using pip:
 
 ```bash
 pip install -r requirements.txt
@@ -44,10 +44,10 @@ isort .
 ### To run the program:
 ##### From the root project directory:
 ```bash
-python json_schema_sniffer/main.py
+python -m json_schema_sniffer
 
 # if python2 exists in your PATH you may want to issue the command using
 
-python3 json_schema_sniffer/main.py
+python3 -m json_schema_sniffer
 
 ```

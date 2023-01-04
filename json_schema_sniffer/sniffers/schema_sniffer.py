@@ -3,7 +3,7 @@ from pathlib import Path
 from pprint import pprint
 from typing import Any, Collection, Dict, Iterable, List, Union
 
-from protocols import IJsonValidator, ISchemaStorage
+from json_schema_sniffer.core.protocols import IJsonValidator, ISchemaStorage
 
 
 class SchemaSniffer:
@@ -13,8 +13,8 @@ class SchemaSniffer:
     def __init__(
         self, *, json_path: str, validator: IJsonValidator, storage: ISchemaStorage
     ):
-        self.storage = storage()
-        self.validator = validator(json_path)
+        self.storage = storage()  # type: ignore
+        self.validator = validator(json_path)  # type: ignore
 
         self.validator.validate()
         self._schema_path = Path(json_path).as_posix()

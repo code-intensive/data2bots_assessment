@@ -3,7 +3,7 @@ __all__ = ("JsonValidator",)
 from pathlib import Path
 from typing import Union
 
-from exceptions import InvalidJsonFileError, NotAFileError
+from json_schema_sniffer.core.exceptions import InvalidJsonFileError, NotAFileError
 
 
 class JsonValidator:
